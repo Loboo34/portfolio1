@@ -65,7 +65,7 @@ strong {
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
-    animation: wiggle 2s linear infinite;
+    animation: wiggle 3s linear infinite;
 }
 
 @keyframes wiggle {
@@ -273,7 +273,7 @@ header {
 }
 
 .home-image {
-    animation: float 1s ease-in-out infinite;
+    animation: float 7s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -299,7 +299,7 @@ header {
     /*note*/
     color: var(--clr-light);
     text-align: center;
-    animation: bounce;
+    /* animation: bounce; */
     animation-duration: 2s;
 }
 
